@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgoldenrodyellow;
+            margin:0px
+        }
+
+        header {
+            color: rgb(255, 255, 111);
+            border-radius: 10px;
+            background-color: rgb(176, 176, 129);
+            padding: 5px;
+            margin: 10px
+        }
+
+        nav {
+            background-color: rgb(67, 67, 61); 
+            padding: 3px;           
+        }
+
+        nav > a {            
+            color: bisque;
+            text-decoration: none;            
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(255, 255, 111);                    
+        }
+
+        main {
+            background-color: rgb(209, 209, 176);
+            padding: 5px;
+            margin: 10px;
+            color: rgb(101, 101, 5);
+            border-radius: 10px;
+                    }
+        article {
+            margin: 20px;
+            border-radius: 15px 15px 0px 15px;
+            padding: 2px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.34);
+            background-color: rgba(214, 214, 157, 0.479)
+            
+            
+        }
+        article > aside {
+            color: blanchedalmond;           
+            background-color: rgb(122, 122, 78)
+            
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias Shoyu</h1>
+        
+        <nav>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Tiktok</a>
+            <a href="#">Cupom desconto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Brincadeiras Comidas Passeios</p>
+        </section>
+        <section id="noticias">
+            <article>                
+                    <h2>Brincadeira favorita</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eveniet mollitia sequi, inventore neque aliquam. Repellat rem, ab animi itaque, officia, doloremque doloribus aperiam incidunt veritatis ipsum cumque distinctio?</p>                    
+                    <aside>
+                        <p>Esctiro pela mãe</p>
+                    </aside>                
+            </article>            
+        </section>        
+    </main>
+
+    <footer>
+        <p>Feito por lele castro</p>
+    </footer>
+</body>
+</html>
