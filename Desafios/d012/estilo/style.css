@@ -31,8 +31,13 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 1.5em;
-    padding-left: 30px;
+    padding-left: 50px;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 15px;
 }
 
 section.normal {
@@ -43,11 +48,26 @@ section.normal {
 section.imagem {
     background-color: rgb(75, 75, 75);
     color: white;
+    box-shadow: inset 5px 5px 15px 0px rgba(0, 0, 0, 0.662);
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    width: 300px;
+    display: inline-block;
+    padding: 20px;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0), black);
+    }
+
+section#img1 {
+    background-image: url(../shoyu2G.jpg);
+    
+}
+
+section#img2 {
+    background-image: url(../shoyu3G.jpg);
+    
 }
 
 footer {
